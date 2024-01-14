@@ -23,6 +23,7 @@
         <link rel="stylesheet" href="css/main.css">
         <!-- Responsive Stylesheet -->
         <link rel="stylesheet" href="css/responsive.css">
+        
     </head>
 
     <body id="body">
@@ -236,6 +237,15 @@
         <script src="js/plugins.js"></script>
         <script src="js/wow.min.js"></script>
         <script src="js/main.js"></script>
+         
+
+        <script type="module">
+            import Chatbot from "https://scalechatembed.onrender.com/web.js"
+            Chatbot.init({
+                chatflowid: "81750fc9-1f00-4fb2-8943-2fedd48e7a2c",
+                apiHost: "http://localhost:3000",
+            })
+        </script>
         
     </body>
 </html>
